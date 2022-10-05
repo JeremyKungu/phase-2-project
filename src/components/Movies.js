@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Movies( {movies}) {
-    console.log(movies)
     const moviesData = movies.map(movie => (
         <div key={movie.id}>
             <h2>{movie.Title}</h2>

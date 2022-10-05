@@ -24,8 +24,8 @@ function Home() {
 
   return (
     <div>
-      <Movies movies={movie}/>
       <NavBar submit={handleSubmit} />
+      <Movies movies={movie}/>      
     </div>
   )
 }
