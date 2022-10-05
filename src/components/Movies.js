@@ -6,7 +6,7 @@ function Movies( {movies}) {
         <div key={movie.id}>
             <h2>{movie.Title}</h2>
             <h3>{movie.Year}</h3>
-            {movie.Poster}
+            <img src={movie.Poster} alt="poster"></img>
         </div>
     ))
     
