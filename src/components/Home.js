@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 
 function Home() {
   const [movie, setMovie] = useState([]);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     fetch("http://localhost:3000/movies")
