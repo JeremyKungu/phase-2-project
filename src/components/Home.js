@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import Movies from './Movies';
+import MovieList from './MovieList';
 import NavBar from './NavBar';
 
 
@@ -25,7 +25,7 @@ function Home() {
   return (
     <div>
       <NavBar submit={handleSubmit} />
-      <Movies movies={movie}/>      
+      <MovieList movies={movie}/>      
     </div>
   )
 }
