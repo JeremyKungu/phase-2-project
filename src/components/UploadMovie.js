@@ -26,7 +26,7 @@ function UploadMovie( {submit} ) {
     }
   return (
     <form className="movie-form">
-        <div className="inline fields">
+        <div className="movie-elements">
           <input type="text" name="name" placeholder="Name" onChange={handleChange}/>
           <input type="text" name="description" placeholder="Description" onChange={handleChange}/>       
           <input type="file" multiple accept="image/*" onChange={onImageChange} />
