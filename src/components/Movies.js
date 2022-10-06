@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Movies( {movie}) {
-    
   return (
     <div key={movie.id}>
       <h2>{movie.Title}</h2>

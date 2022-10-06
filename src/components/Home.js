@@ -1,7 +1,8 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import MovieList from './MovieList';
-import NavBar from './NavBar';
+import UploadMovie from './UploadMovie';
+import SearchBar from './SearchBar';
 
 
 function Home() {
@@ -25,8 +26,10 @@ function Home() {
 
   return (
     <div>
-      <NavBar submit={handleSubmit} />
-      <MovieList movies={movie}/>      
+      <UploadMovie submit={handleSubmit} />
+      <SearchBar search={search} setSearch={setSearch}/> 
+      <MovieList movies={movie} search={search}/>   
+       
     </div>
   )
 }

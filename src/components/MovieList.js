@@ -9,7 +9,6 @@ function MovieList( {movies}) {
     
     <div>
         {moviesData}
-        MovieList
     </div>
   )
 }
