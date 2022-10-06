@@ -29,7 +29,7 @@ function Home() {
       <UploadMovie submit={handleSubmit} />
       <SearchBar search={search} setSearch={setSearch}/> 
       <MovieList movies={movie} search={search}/>   
-       
+       <h1>Home</h1>
     </div>
   )
 }
