@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import NavBar from './NavBar';
 import SearchBar from './SearchBar';
 import UploadMovie from './UploadMovie';
+import Reviews from './Reviews';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/search' element={<SearchBar/>}/>        
         <Route path='/uploadmovie' element={<UploadMovie/>}/>
+        <Route path='/reviews' element={<Reviews/>}/>
         <Route path='/' element={<Home/>}/>          
       </Routes>
       </Router>
