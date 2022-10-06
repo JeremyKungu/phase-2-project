@@ -2,10 +2,10 @@ import React from 'react'
 
 function Movies( {movie}) {
   return (
-    <div key={movie.id}>
+    <div className='movie' key={movie.id}>
+      <img className="poster" src={movie.Poster} alt="poster"></img>
       <h2>{movie.Title}</h2>
-      <h3>{movie.Year}</h3>
-      <img src={movie.Poster} alt="poster"></img>
+      <h3>{movie.Year}</h3>      
     </div>
   )
 }

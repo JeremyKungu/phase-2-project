@@ -41,21 +41,20 @@
       "Title": "Batman Returns",
       "Year": "1992",
       "Poster": "https://ia.media-imdb.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+    },  	 
+    {
+    "Title": "Star Wars: Episode V - The Empire Strikes Back",
+    "Year": "1980",
+    "imdbID": "tt0080684",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
     },
     {
-      "name": "the dark night ",
-      "description": "1992",
-      "id": "0iG2to1"
-    },
-    {
-      "name": "batman",
-      "description": "a good batman movie",
-      "id": "4GUMuES"
-    },
-    {
-      "name": "batman",
-      "description": "a good batman movie",
-      "id": "6SE72Ai"
-    }
+    "Title": "Star Wars: Episode VI - Return of the Jedi",
+    "Year": "1983",
+    "imdbID": "tt0086190",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+    }   
   ]
 }

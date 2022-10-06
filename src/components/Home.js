@@ -26,10 +26,10 @@ function Home() {
 
   return (
     <div>
-      <UploadMovie submit={handleSubmit} />
+      <h1 className='header'>Browse your Favorite Movies</h1>
       <SearchBar search={search} setSearch={setSearch}/> 
-      <MovieList movies={movie} search={search}/>   
-       <h1>Home</h1>
+      <MovieList movies={movie} search={search}/>       
+      <UploadMovie submit={handleSubmit} />             
     </div>
   )
 }

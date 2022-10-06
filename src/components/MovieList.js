@@ -7,7 +7,7 @@ function MovieList( {movies}) {
     ))
   return (
     
-    <div>
+    <div className='movies'>
         {moviesData}
     </div>
   )

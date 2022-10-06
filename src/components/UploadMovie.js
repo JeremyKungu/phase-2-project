@@ -31,7 +31,7 @@ function UploadMovie( {submit} ) {
           <input type="text" name="description" placeholder="Description" onChange={handleChange}/>       
           <input type="file" multiple accept="image/*" onChange={onImageChange} />
         </div>
-        <button type='submit' onClick={submitData}>Add Movie</button>
+        <button className="submit" type='submit' onClick={submitData}>Add Movie</button>
     </form>
 
   )
