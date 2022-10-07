@@ -41,9 +41,9 @@ body{
 }
 
 .movie h2, h3 {
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
-}
+} 
 
 .submit {
   font-size: 16px;
@@ -73,5 +73,9 @@ body{
 
 .form-container {
   padding: 1rem 0rem 0 1rem;
+}
+
+.form-container h1 {
+  color: #fff;
 }
 

@@ -2,13 +2,12 @@ import React from 'react'
 import Movies from './Movies'
 
 function MovieList( {movies}) {
-    const moviesData = movies.map(movie => (
-        <Movies key={movie.id} movie={movie}/>
-    ))
   return (
     
     <div className='movies'>
-        {moviesData}
+       {movies.map(data =>  {
+        return <Movies key={data.id} movie={data}/>
+       })} 
     </div>
   )
 }
