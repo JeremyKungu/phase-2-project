@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState} from 'react'
-import { Button, Form, Input } from 'react-strap'
+import {Button, Form, Input} from 'reactstrap';
 import Stars from './Stars';
 
 

@@ -71,3 +71,7 @@ body{
   border-radius: 5px;
 }
 
+.form-container {
+  padding: 1rem 0rem 0 1rem;
+}
+
