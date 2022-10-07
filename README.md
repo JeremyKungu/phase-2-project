@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a movie search app that allows a user to search for a movie, upload one as well as write a review on their thoughts about the movie
 
 ## Available Scripts
 
