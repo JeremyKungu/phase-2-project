@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Movie Search App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 It is a movie search app that allows a user to search for a movie, upload one as well as write a review on their thoughts about the movie
 
 ## Available Scripts
@@ -69,3 +70,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Links
+
+Github url - https://github.com/JeremyKungu/phase-2-project/tree/master
+
+##Built by [@JeremyKungu](https://github.com/JeremyKungu)
