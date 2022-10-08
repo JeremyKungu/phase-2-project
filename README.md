@@ -45,6 +45,8 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ### Links
 
+livesite - https://movie-search-apppp.herokuapp.com/
+
 Github url - https://github.com/JeremyKungu/phase-2-project/tree/master
 
 ## Built by [@JeremyKungu](https://github.com/JeremyKungu)
